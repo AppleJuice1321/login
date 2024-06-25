@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    gap: 1em;
+    width: 30em;
+    height: 20em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: gainsboro;
+}
+
+input {
+    width: 20em;
+    height: 2.5em;
+    padding-left: 1em;
+    border-radius: 0.5em;
+    border-style: none;
+    font-size: larger;
+}
+
+button {
+    width: 20em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    background-color: orange;
+    border-style: none;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 1em;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+}
